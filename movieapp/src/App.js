@@ -23,7 +23,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Movie la la </h1>
+      <h1>Movie la land </h1>
       <div className='search'>
         <input
           placeholder='Search for Movies'
@@ -31,7 +31,7 @@ const App = () => {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
         <img
-          src='{SearchIcon}'
+          src='./search.svg'
           alt='search'
           onClick={() => searchMovies(searchTerm)}
         />
